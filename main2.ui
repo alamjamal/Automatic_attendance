@@ -1,0 +1,3789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1352</width>
+    <height>844</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Universal education &amp; Research services</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background-color: #f5f5f5;
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>1</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_Top">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+
+	background-color: rgb(255, 255, 255);
+	border:0px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="frame_TopLeft">
+         <property name="minimumSize">
+          <size>
+           <width>282</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>282</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+border:0px;
+
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 14pt &quot;Tahoma&quot;;
+border:4px solid ;
+border-color: rgb(85, 0, 127);</string>
+            </property>
+            <property name="text">
+             <string>Light Mode</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);
+background-color: rgb(85, 0, 127);
+font: 75 14pt &quot;Tahoma&quot;;
+border: 4px solid ;
+border-color: rgb(85, 0, 127);
+</string>
+            </property>
+            <property name="text">
+             <string>Dark Mode</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_TopCenter">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_logo">
+            <property name="styleSheet">
+             <string notr="true">
+
+color:#1f3b6f;
+font-weight: bold;
+background-color:transparent;
+font-size:26px;
+border:0px;
+</string>
+            </property>
+            <property name="text">
+             <string>UNIVERSAL EDUCATION &amp; RESEARCH SERVICE</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_TopRight">
+         <property name="minimumSize">
+          <size>
+           <width>350</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QFrame" name="frame_TopAlert">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="styleSheet">
+                <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+               </property>
+               <property name="text">
+                <string>User</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_TopProfile">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_user">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>19</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(85, 0, 127);
+font: 6pt &quot;MS Shell Dlg 2&quot;;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+padding:10px;
+border-radius: 8px;
+</string>
+            </property>
+            <property name="text">
+             <string>Submit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_Central">
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+
+	border:0px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_ColumnCenter">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_DashCentral">
+            <property name="styleSheet">
+             <string notr="true">QMainWindow {
+	background-color:#ececec;
+}
+QLineEdit, QTextEdit, QPlainTextEdit, QSpinBox, QDoubleSpinBox, QTimeEdit, QDateEdit, QDateTimeEdit {
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
+    border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
+    border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd);
+    border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
+    background-color: #f4f4f4;
+    color: #3d3d3d;
+}
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QTimeEdit:focus, QDateEdit:focus, QDateTimeEdit:focus {
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #85b7e3, stop:1 #9ec1db);
+    border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #85b7e3, stop:1 #9ec1db);
+    border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #85b7e3, stop:1 #9ec1db);
+    border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #85b7e3, stop:1 #9ec1db);
+    background-color: #f4f4f4;
+    color: #3d3d3d;
+}
+QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled, QTimeEdit:disabled, QDateEdit:disabled, QDateTimeEdit:disabled {
+    color: #b9b9b9;
+}
+
+
+QToolButton {
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+QToolButton:hover{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+QToolButton:pressed{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(142,142,142);
+}
+QPushButton{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+QPushButton::default{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+QPushButton:hover{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+QPushButton:pressed{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	padding: 2px;
+	background-color: rgb(142,142,142);
+}
+QPushButton:disabled{
+	border-style: solid;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
+	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));
+	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
+	border-width: 1px;
+	border-radius: 5px;
+	color: #808086;
+	padding: 2px;
+	background-color: rgb(142,142,142);
+}
+
+QLabel {
+	color: #000000;
+}
+QLCDNumber {
+	color: rgb(0, 113, 255, 255);
+}
+QProgressBar {
+	text-align: center;
+	color: rgb(240, 240, 240);
+	border-width: 1px; 
+	border-radius: 10px;
+	border-color: rgb(230, 230, 230);
+	border-style: solid;
+	background-color:rgb(207,207,207);
+}
+QProgressBar::chunk {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(49, 147, 250, 255), stop:1 rgba(34, 142, 255, 255));
+	border-radius: 10px;
+}
+QMenuBar {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(207, 209, 207, 255), stop:1 rgba(230, 229, 230, 255));
+}
+QMenuBar::item {
+	color: #000000;
+  	spacing: 3px;
+  	padding: 1px 4px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(207, 209, 207, 255), stop:1 rgba(230, 229, 230, 255));
+}
+
+QMenuBar::item:selected {
+  	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	color: #FFFFFF;
+}
+QMenu::item:selected {
+	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	border-bottom-color: transparent;
+	border-left-width: 2px;
+	color: #000000;
+	padding-left:15px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:7px;
+}
+QMenu::item {
+	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	border-bottom-width: 1px;
+	color: #000000;
+	padding-left:17px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:7px;
+}
+QTabWidget {
+	color:rgb(0,0,0);
+	background-color:#000000;
+}
+QTabWidget::pane {
+		border-color: rgb(223,223,223);
+		background-color:rgb(226,226,226);
+		border-style: solid;
+		border-width: 2px;
+    	border-radius: 6px;
+}
+QTabBar::tab:first {
+	border-style: solid;
+	border-left-width:1px;
+	border-right-width:0px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-top-color: rgb(209,209,209);
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-bottom-color: rgb(229,229,229);
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	color: #000000;
+	padding: 3px;
+	margin-left:0px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(247, 247, 247, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QTabBar::tab:last {
+	border-style: solid;
+	border-width:1px;
+	border-top-color: rgb(209,209,209);
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-right-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-bottom-color: rgb(229,229,229);
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: #000000;
+	padding: 3px;
+	margin-left:0px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(247, 247, 247, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QTabBar::tab {
+	border-style: solid;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-top-color: rgb(209,209,209);
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-bottom-color: rgb(229,229,229);
+	color: #000000;
+	padding: 3px;
+	margin-left:0px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(247, 247, 247, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover {
+  	border-style: solid;
+  	border-left-width:1px;
+	border-right-color: transparent;
+	border-top-color: rgb(209,209,209);
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-bottom-color: rgb(229,229,229);
+	color: #FFFFFF;
+	padding: 3px;
+	margin-left:0px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+
+QTabBar::tab:selected, QTabBar::tab:first:selected, QTabBar::tab:hover {
+  	border-style: solid;
+  	border-left-width:1px;
+  	border-bottom-width:1px;
+  	border-top-width:1px;
+	border-right-color: transparent;
+	border-top-color: rgb(209,209,209);
+	border-left-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(209, 209, 209, 209), stop:1 rgba(229, 229, 229, 229));
+	border-bottom-color: rgb(229,229,229);
+	color: #FFFFFF;
+	padding: 3px;
+	margin-left:0px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+
+QCheckBox {
+	color: #000000;
+	padding: 2px;
+}
+QCheckBox:disabled {
+	color: #808086;
+	padding: 2px;
+}
+
+QCheckBox:hover {
+	border-radius:4px;
+	border-style:solid;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	border-width:1px;
+	border-color: transparent;
+}
+QCheckBox::indicator:checked {
+
+	height: 10px;
+	width: 10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	color: #000000;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QCheckBox::indicator:unchecked {
+
+	height: 10px;
+	width: 10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	color: #000000;
+}
+QRadioButton {
+	color: 000000;
+	padding: 1px;
+}
+QRadioButton::indicator:checked {
+	height: 10px;
+	width: 10px;
+	border-style:solid;
+	border-radius:5px;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	color: #a9b7c6;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QRadioButton::indicator:!checked {
+	height: 10px;
+	width: 10px;
+	border-style:solid;
+	border-radius:5px;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+	color: #a9b7c6;
+	background-color: transparent;
+}
+QStatusBar {
+	color:#027f7f;
+}
+QSpinBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QDoubleSpinBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QTimeEdit {
+	border-style: solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QDateTimeEdit {
+	border-style: solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+QDateEdit {
+	border-style: solid;
+	border-width: 1px;
+	border-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(0, 113, 255, 255), stop:1 rgba(91, 171, 252, 255));
+}
+
+QToolBox {
+	color: #a9b7c6;
+	background-color:#000000;
+}
+QToolBox::tab {
+	color: #a9b7c6;
+	background-color:#000000;
+}
+QToolBox::tab:selected {
+	color: #FFFFFF;
+	background-color:#000000;
+}
+QScrollArea {
+	color: #FFFFFF;
+	background-color:#000000;
+}
+QSlider::groove:horizontal {
+	height: 5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(49, 147, 250, 255), stop:1 rgba(34, 142, 255, 255));
+}
+QSlider::groove:vertical {
+	width: 5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(49, 147, 250, 255), stop:1 rgba(34, 142, 255, 255));
+}
+QSlider::handle:horizontal {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(207,207,207);
+	width: 12px;
+	margin: -5px 0;
+	border-radius: 7px;
+}
+QSlider::handle:vertical {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(207,207,207);
+	height: 12px;
+	margin: 0 -5px;
+	border-radius: 7px;
+}
+QSlider::add-page:horizontal {
+    background: rgb(181,181,181);
+}
+QSlider::add-page:vertical {
+    background: rgb(181,181,181);
+}
+QSlider::sub-page:horizontal {
+    background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(49, 147, 250, 255), stop:1 rgba(34, 142, 255, 255));
+}
+QSlider::sub-page:vertical {
+    background-color: qlineargradient(spread:pad, y1:0.5, x1:1, y2:0.5, x2:0, stop:0 rgba(49, 147, 250, 255), stop:1 rgba(34, 142, 255, 255));
+}
+QScrollBar:horizontal {
+	max-height: 20px;
+	border: 1px transparent grey;
+	margin: 0px 20px 0px 20px;
+}
+QScrollBar:vertical {
+	max-width: 20px;
+	border: 1px transparent grey;
+	margin: 20px 0px 20px 0px;
+}
+QScrollBar::handle:horizontal {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(207,207,207);
+	border-radius: 7px;
+	min-width: 25px;
+}
+QScrollBar::handle:horizontal:hover {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(147, 200, 200);
+	border-radius: 7px;
+	min-width: 25px;
+}
+QScrollBar::handle:vertical {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(207,207,207);
+	border-radius: 7px;
+	min-height: 25px;
+}
+QScrollBar::handle:vertical:hover {
+	background: rgb(253,253,253);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(147, 200, 200);
+	border-radius: 7px;
+	min-height: 25px;
+}
+QScrollBar::add-line:horizontal {
+   border: 2px transparent grey;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   width: 20px;
+   subcontrol-position: right;
+   subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal:pressed {
+   border: 2px transparent grey;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgb(181,181,181);
+   width: 20px;
+   subcontrol-position: right;
+   subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical {
+   border: 2px transparent grey;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   height: 20px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical:pressed {
+   border: 2px transparent grey;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background: rgb(181,181,181);
+   height: 20px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   width: 20px;
+   subcontrol-position: left;
+   subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal:pressed {
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   background: rgb(181,181,181);
+   width: 20px;
+   subcontrol-position: left;
+   subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   background: rgba(34, 142, 255, 255);
+   height: 20px;
+   subcontrol-position: top;
+   subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical:pressed {
+   border: 2px transparent grey;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   background: rgb(181,181,181);
+   height: 20px;
+   subcontrol-position: top;
+   subcontrol-origin: margin;
+}
+QScrollBar::left-arrow:horizontal {
+   border: 1px transparent grey;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
+}
+QScrollBar::right-arrow:horizontal {
+   border: 1px transparent grey;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
+}
+QScrollBar::up-arrow:vertical {
+   border: 1px transparent grey;
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
+}
+QScrollBar::down-arrow:vertical {
+   border: 1px transparent grey;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   width: 6px;
+   height: 6px;
+   background: white;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+   background: none;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+   background: none;
+}
+
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_AjusteAnual">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>250</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <item>
+                 <widget class="QFrame" name="frame_3">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>300</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_5">
+                   <item>
+                    <widget class="QLabel" name="label">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(85, 0, 127);
+border:1px solid;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::Fixed</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>60</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="btn1">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="cursor">
+                      <cursorShape>PointingHandCursor</cursorShape>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(85, 0, 127);
+color:white;
+padding:15px;
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Upload</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::Fixed</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_2">
+                   <item>
+                    <widget class="QWidget" name="widget" native="true">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout">
+                      <property name="leftMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>1</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>1</number>
+                      </property>
+                      <property name="spacing">
+                       <number>7</number>
+                      </property>
+                      <item row="9" column="3">
+                       <widget class="QPushButton" name="pushButton_46">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="2">
+                       <widget class="QPushButton" name="pushButton_29">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="0">
+                       <widget class="QLabel" name="label_16">
+                        <property name="text">
+                         <string>No. of Employees:  </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="3">
+                       <widget class="QPushButton" name="pushButton_18">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="2">
+                       <widget class="QPushButton" name="pushButton_13">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="4">
+                       <widget class="QPushButton" name="pushButton_51">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="1">
+                       <widget class="QLineEdit" name="lineEdit_8">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="4">
+                       <widget class="QPushButton" name="pushButton_59">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="4">
+                       <widget class="QPushButton" name="pushButton_15">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="1">
+                       <widget class="QLineEdit" name="lineEdit_5">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QLineEdit" name="lineEdit_4">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="4">
+                       <widget class="QPushButton" name="pushButton_11">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="5">
+                       <widget class="QPushButton" name="pushButton_68">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="3">
+                       <widget class="QPushButton" name="pushButton_62">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="1">
+                       <widget class="QLineEdit" name="lineEdit_9">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="5">
+                       <widget class="QPushButton" name="pushButton_24">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="0">
+                       <widget class="QLabel" name="label_10">
+                        <property name="text">
+                         <string>Website:               </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="2">
+                       <widget class="QPushButton" name="pushButton_17">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="1">
+                       <widget class="QLineEdit" name="lineEdit_14">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="3">
+                       <widget class="QPushButton" name="pushButton_26">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="2">
+                       <widget class="QPushButton" name="pushButton_21">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="3">
+                       <widget class="QPushButton" name="pushButton_22">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="3">
+                       <widget class="QPushButton" name="pushButton_42">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="1">
+                       <widget class="QTextEdit" name="textEdit_2">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>70</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="3">
+                       <widget class="QPushButton" name="pushButton_66">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="5">
+                       <widget class="QPushButton" name="pushButton_36">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="5">
+                       <widget class="QPushButton" name="pushButton_64">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="3">
+                       <widget class="QPushButton" name="pushButton_38">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="2">
+                       <widget class="QPushButton" name="pushButton_37">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="0">
+                       <widget class="QLabel" name="label_13">
+                        <property name="text">
+                         <string>State:                   </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="3">
+                       <widget class="QPushButton" name="pushButton_58">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="1">
+                       <widget class="QLineEdit" name="lineEdit_6">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="3">
+                       <widget class="QPushButton" name="pushButton_30">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="1">
+                       <widget class="QLineEdit" name="lineEdit_10">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="4">
+                       <widget class="QPushButton" name="pushButton_55">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="1">
+                       <widget class="QLineEdit" name="lineEdit_15">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="4">
+                       <widget class="QPushButton" name="pushButton_27">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="2">
+                       <widget class="QPushButton" name="pushButton_57">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="0">
+                       <widget class="QLabel" name="label_15">
+                        <property name="text">
+                         <string>Industry:               </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="5">
+                       <widget class="QPushButton" name="pushButton_52">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLineEdit" name="lineEdit_3">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>true</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                        <property name="readOnly">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="0">
+                       <widget class="QLabel" name="label_12">
+                        <property name="text">
+                         <string>Contact No.:          </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="0">
+                       <widget class="QLabel" name="label_11">
+                        <property name="text">
+                         <string>Email:                   </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="4">
+                       <widget class="QPushButton" name="pushButton_67">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="3">
+                       <widget class="QPushButton" name="pushButton_50">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="3">
+                       <widget class="QPushButton" name="pushButton_54">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="2">
+                       <widget class="QPushButton" name="pushButton_41">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QLabel" name="label_5">
+                        <property name="text">
+                         <string>Company Code:      </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="0">
+                       <widget class="QLabel" name="label_6">
+                        <property name="text">
+                         <string>Company Name:     </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="3">
+                       <widget class="QPushButton" name="pushButton_14">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="5">
+                       <widget class="QPushButton" name="pushButton_28">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="4">
+                       <widget class="QPushButton" name="pushButton_43">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="label_4">
+                        <property name="text">
+                         <string>Form No:                </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="2">
+                       <widget class="QPushButton" name="pushButton_33">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="5">
+                       <widget class="QPushButton" name="pushButton_32">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="5">
+                       <widget class="QPushButton" name="pushButton_48">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="0">
+                       <widget class="QLabel" name="label_7">
+                        <property name="text">
+                         <string>Company Address:        </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="0">
+                       <widget class="QLabel" name="label_18">
+                        <property name="text">
+                         <string>Country:                </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="3">
+                       <widget class="QPushButton" name="pushButton_10">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="1">
+                       <widget class="QLineEdit" name="lineEdit_11">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="2">
+                       <widget class="QPushButton" name="pushButton_45">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="2">
+                       <widget class="QPushButton" name="pushButton_49">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="5">
+                       <widget class="QPushButton" name="pushButton_44">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="0">
+                       <widget class="QLabel" name="label_14">
+                        <property name="text">
+                         <string>Headquarter:         </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="2">
+                       <widget class="QPushButton" name="pushButton_61">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="5">
+                       <widget class="QPushButton" name="pushButton_40">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="2">
+                       <widget class="QPushButton" name="pushButton_25">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="3">
+                       <widget class="QPushButton" name="pushButton_34">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="1">
+                       <widget class="QLineEdit" name="lineEdit_7">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QPushButton" name="pushButton_9">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="4">
+                       <widget class="QPushButton" name="pushButton_63">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="0">
+                       <widget class="QLabel" name="label_9">
+                        <property name="text">
+                         <string>Fax:                      </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="5">
+                       <widget class="QPushButton" name="pushButton_60">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="4">
+                       <widget class="QPushButton" name="pushButton_19">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="4">
+                       <widget class="QPushButton" name="pushButton_31">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="1">
+                       <widget class="QLineEdit" name="lineEdit_12">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="4">
+                       <widget class="QPushButton" name="pushButton_39">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="5">
+                       <widget class="QPushButton" name="pushButton_12">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="1">
+                       <widget class="QLineEdit" name="lineEdit_13">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="4">
+                       <widget class="QPushButton" name="pushButton_23">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="4">
+                       <widget class="QPushButton" name="pushButton_35">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="2">
+                       <widget class="QPushButton" name="pushButton_65">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="5">
+                       <widget class="QPushButton" name="pushButton_20">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="0">
+                       <widget class="QLabel" name="label_8">
+                        <property name="text">
+                         <string>Zip Code:               </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="5">
+                       <widget class="QPushButton" name="pushButton_56">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="5">
+                       <widget class="QPushButton" name="pushButton_16">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="1">
+                       <widget class="QTextEdit" name="textEdit">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>1</horstretch>
+                          <verstretch>4</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>70</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="4">
+                       <widget class="QPushButton" name="pushButton_47">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="2">
+                       <widget class="QPushButton" name="pushButton_53">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="0">
+                       <widget class="QLabel" name="label_17">
+                        <property name="text">
+                         <string>Brand Ambassador:</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_2">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <widget class="QWidget" name="widget_2" native="true">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_3">
+                      <property name="leftMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>1</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>1</number>
+                      </property>
+                      <property name="spacing">
+                       <number>7</number>
+                      </property>
+                      <item row="6" column="3">
+                       <widget class="QPushButton" name="pushButton_98">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="3">
+                       <widget class="QPushButton" name="pushButton_106">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="4">
+                       <widget class="QPushButton" name="pushButton_111">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="1">
+                       <widget class="QTextEdit" name="textEdit_3">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>70</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLineEdit" name="lineEdit_16">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="1">
+                       <widget class="QLineEdit" name="lineEdit_22">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="2">
+                       <widget class="QPushButton" name="pushButton_121">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="3">
+                       <widget class="QPushButton" name="pushButton_78">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="2">
+                       <widget class="QPushButton" name="pushButton_97">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="4">
+                       <widget class="QPushButton" name="pushButton_87">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="1">
+                       <widget class="QLineEdit" name="lineEdit_26">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="3">
+                       <widget class="QPushButton" name="pushButton_126">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="4">
+                       <widget class="QPushButton" name="pushButton_71">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="4">
+                       <widget class="QPushButton" name="pushButton_131">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="5">
+                       <widget class="QPushButton" name="pushButton_76">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="5">
+                       <widget class="QPushButton" name="pushButton_96">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="3">
+                       <widget class="QPushButton" name="pushButton_110">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0">
+                       <widget class="QLabel" name="label_22">
+                        <property name="text">
+                         <string>Social Media:        </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="4">
+                       <widget class="QPushButton" name="pushButton_95">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="3">
+                       <widget class="QPushButton" name="pushButton_114">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="3">
+                       <widget class="QPushButton" name="pushButton_118">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="1">
+                       <widget class="QLineEdit" name="lineEdit_30">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="0">
+                       <widget class="QLabel" name="label_35">
+                        <property name="text">
+                         <string>Landmark:            </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="2">
+                       <widget class="QPushButton" name="pushButton_105">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="4">
+                       <widget class="QPushButton" name="pushButton_75">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="4">
+                       <widget class="QPushButton" name="pushButton_99">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="1">
+                       <widget class="QLineEdit" name="lineEdit_21">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="0">
+                       <widget class="QLabel" name="label_36">
+                        <property name="text">
+                         <string>Advertising Media:      </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="5">
+                       <widget class="QPushButton" name="pushButton_120">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QPushButton" name="pushButton_69">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="5">
+                       <widget class="QPushButton" name="pushButton_100">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="3">
+                       <widget class="QPushButton" name="pushButton_90">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="0">
+                       <widget class="QLabel" name="label_37">
+                        <property name="text">
+                         <string>Registartion Rate :</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="5">
+                       <widget class="QPushButton" name="pushButton_112">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="5">
+                       <widget class="QPushButton" name="pushButton_124">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="4">
+                       <widget class="QPushButton" name="pushButton_91">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="0">
+                       <widget class="QLabel" name="label_38">
+                        <property name="text">
+                         <string>Acc Audit:             </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="1">
+                       <widget class="QLineEdit" name="lineEdit_23">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="4">
+                       <widget class="QPushButton" name="pushButton_115">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="3">
+                       <widget class="QPushButton" name="pushButton_122">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="2">
+                       <widget class="QPushButton" name="pushButton_129">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="12" column="4">
+                       <widget class="QPushButton" name="pushButton_123">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="2">
+                       <widget class="QPushButton" name="pushButton_77">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="0">
+                       <widget class="QLabel" name="label_39">
+                        <property name="text">
+                         <string>Manager:             </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="5">
+                       <widget class="QPushButton" name="pushButton_88">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="3">
+                       <widget class="QPushButton" name="pushButton_102">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="4">
+                       <widget class="QPushButton" name="pushButton_119">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="2">
+                       <widget class="QPushButton" name="pushButton_125">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="1">
+                       <widget class="QLineEdit" name="lineEdit_20">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="1">
+                       <widget class="QLineEdit" name="lineEdit_29">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="3">
+                       <widget class="QPushButton" name="pushButton_94">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="3">
+                       <widget class="QPushButton" name="pushButton_130">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="5">
+                       <widget class="QPushButton" name="pushButton_116">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="0">
+                       <widget class="QLabel" name="label_40">
+                        <property name="text">
+                         <string>Frenchise Partner: </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="2">
+                       <widget class="QPushButton" name="pushButton_93">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="3">
+                       <widget class="QPushButton" name="pushButton_86">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="5">
+                       <widget class="QPushButton" name="pushButton_128">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="5">
+                       <widget class="QPushButton" name="pushButton_108">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="0">
+                       <widget class="QLabel" name="label_41">
+                        <property name="text">
+                         <string>Currency:              </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="2">
+                       <widget class="QPushButton" name="pushButton_117">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="5">
+                       <widget class="QPushButton" name="pushButton_72">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="4">
+                       <widget class="QPushButton" name="pushButton_79">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="5">
+                       <widget class="QPushButton" name="pushButton_80">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QLineEdit" name="lineEdit_17">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="16" column="1">
+                       <widget class="QPushButton" name="btn1_2">
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(85, 0, 127);
+color:white;
+padding:6px,6px,7px,7px;
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>Save</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="4">
+                       <widget class="QPushButton" name="pushButton_103">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="3">
+                       <widget class="QPushButton" name="pushButton_70">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="0">
+                       <widget class="QLabel" name="label_42">
+                        <property name="text">
+                         <string>Yearly Expence:     </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="6" column="0">
+                       <widget class="QLabel" name="label_43">
+                        <property name="text">
+                         <string>Services:              </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="0">
+                       <widget class="QLabel" name="label_44">
+                        <property name="text">
+                         <string>Subclassification:  </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="14" column="5">
+                       <widget class="QPushButton" name="pushButton_132">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="10" column="4">
+                       <widget class="QPushButton" name="pushButton_107">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="2">
+                       <widget class="QPushButton" name="pushButton_85">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="5" column="0">
+                       <widget class="QLabel" name="label_45">
+                        <property name="text">
+                         <string>Product:               </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="11" column="1">
+                       <widget class="QLineEdit" name="lineEdit_27">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="label_46">
+                        <property name="text">
+                         <string>Media Partner:      </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="1">
+                       <widget class="QLineEdit" name="lineEdit_28">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="3">
+                       <widget class="QPushButton" name="pushButton_74">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+
+font: 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>/</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="5">
+                       <widget class="QPushButton" name="pushButton_92">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="5">
+                       <widget class="QPushButton" name="pushButton_104">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>R</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="2">
+                       <widget class="QPushButton" name="pushButton_89">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="7" column="2">
+                       <widget class="QPushButton" name="pushButton_101">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="2">
+                       <widget class="QPushButton" name="pushButton_73">
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="17" column="1">
+                       <widget class="QPushButton" name="btn1_3">
+                        <property name="cursor">
+                         <cursorShape>PointingHandCursor</cursorShape>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(85, 0, 127);
+color:white;
+padding:6px,6px,7px,7px;
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>View Saved Data</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="0">
+                       <widget class="QLabel" name="label_47">
+                        <property name="text">
+                         <string>Yearly Revenue:     </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="13" column="4">
+                       <widget class="QPushButton" name="pushButton_127">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+text-decoration: underline;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>U</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="2">
+                       <widget class="QPushButton" name="pushButton_109">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="0">
+                       <widget class="QLabel" name="label_48">
+                        <property name="text">
+                         <string>Investor:               </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="1">
+                       <widget class="QLineEdit" name="lineEdit_18">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="1">
+                       <widget class="QLineEdit" name="lineEdit_19">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="9" column="2">
+                       <widget class="QPushButton" name="pushButton_113">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:10px;
+font: 75 8pt &quot;Arial&quot;;
+padding-top:5px;
+padding-bottom:5px;
+</string>
+                        </property>
+                        <property name="text">
+                         <string>B</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="8" column="1">
+                       <widget class="QLineEdit" name="lineEdit_25">
+                        <property name="maximumSize">
+                         <size>
+                          <width>260</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="contextMenuPolicy">
+                         <enum>Qt::NoContextMenu</enum>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">padding:4px;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
